@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import 'ders1_scaffold.dart';
+import 'ders2_text.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -10,17 +13,19 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      title: 'akkayasoft',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: Ders2Text(),
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
+
+/* class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
 
   final String title;
@@ -66,4 +71,4 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
   }
-}
+} */
