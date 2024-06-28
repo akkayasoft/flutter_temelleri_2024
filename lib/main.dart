@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'ders1_scaffold.dart';
 import 'ders2_text.dart';
+import 'ders3_container.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Ders2Text(),
+      home: Ders3Container(),
     );
   }
 }
